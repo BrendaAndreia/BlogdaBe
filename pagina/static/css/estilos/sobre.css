@@ -1,0 +1,28 @@
+.card-text{
+    color: #000;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.sobre .card-text{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--letra-escura);
+    font-family: 'Montserrat',  sans-serif;
+}
+.hr-icon{
+    margin-left: 15px;
+}
+.card-body{
+    padding: 10px 0;
+  
+}
+.assinatura{
+ width: 160px !important; 
+}

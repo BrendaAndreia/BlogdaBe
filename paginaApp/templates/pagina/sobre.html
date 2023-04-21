@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Sobre{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/estilos/sobre.css' %}">
+{% endblock %}
+{% block content %}
+<div class="row">
+  <div class="col-md-8 card sobre p-5">
+    <img class="card-img-top mb-5" src="{% static 'images/imagem1.jpg' %}" alt="Imagem do card"> 
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam ac urna sodales vehicula. Morbi pharetra tortor quis nibh euismod bibendum. Maecenas aliquam dolor in massa bibendum, vel dignissim ipsum iaculis. Suspendisse vel libero vitae justo varius tristique. Etiam non odio ante. Fusce sit amet urna vel sapien euismod sagittis eget sed odio. Sed ac quam id odio elementum malesuada in id dolor. Pellentesque non sem quis quam mollis aliquam in quis felis. Morbi eleifend enim vel lectus tincidunt, vel blandit arcu auctor. Integer elementum bibendum quam id hendrerit. Donec eget tincidunt ex. Praesent euismod auctor aliquet.</p>
+    <p class="card-text">Aliquam in mi in magna laoreet auctor at at dolor. Donec id enim vel ipsum pharetra congue. Nullam vel tellus lorem. Nam eu ipsum velit. Nullam ac nunc ac purus placerat bibendum. Aliquam erat volutpat. Suspendisse lobortis, quam eu sollicitudin lobortis, odio quam faucibus eros, eu dignissim dolor felis ut sapien. Integer dignissim quis elit vel maximus. Curabitur eleifend leo eu volutpat vulputate.</p>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-4">
+      <h5 class="card-title">CONHEÇA A BÊ</h5>
+      <img class="card-img-top" src="{% static 'images/perfil.png' %}" alt="Imagem do card">
+      <div class="card-body">
+        <p class="card-text">Bem-vindo(a) ao Blog da Bê! <i class="fa-solid fa-heart fa-beat-fade hr-icon"></i>
+          <br>Eu sou a Brenda, e aqui eu postarei um pouco de tudo sobre mim. Como nos velhos tempos.
+        </p>
+          
+          <img class="card-img-top assinatura" width="150px" src="{% static 'images/assinatura.png' %}" alt="Imagem do card">
+        
+      </div>
+    </div>
+
+    <div class="card p-3 mt-5">
+      <img class="card-img-top" src="{% static 'images/imagem2.jpg' %}" alt="Imagem do card">
+      <div class="card-body ">
+        <h5 class="card-title">Outro título do card</h5>
+        <p class="card-text">Aqui terá algum outro conteudo que estarei pensando..</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block content2 %}
+{% endblock %}
+

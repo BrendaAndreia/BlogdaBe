@@ -1,0 +1,11 @@
+:root {
+    --cor-primaria: #f4f4f4; /* branco */
+    --cor-secundaria: #888888; /* cinza claro*/
+    --cor-detalhes: #e6b49a;
+    ; /* Rosa gold*/
+    --letra-escura: #333333  ; /* cinzaescuro */
+  }
+.current{
+    font-weight: bold;
+    color: var(--cor-detalhes);
+}
